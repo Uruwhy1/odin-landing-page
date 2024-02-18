@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,900';
+@import 'https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,900';
 
 * {
     box-sizing: border-box;
@@ -30,6 +30,7 @@ body {
     left: 0;
     width: 100vw;
     height: 80px;
+    z-index: 1; 
 
     display: flex;
     align-items: center;
@@ -86,6 +87,7 @@ a {
 .main-text h1 {
     margin: 0;
     padding: 10px;
+    font-size: 2em;
 }
 
 .main-text p {
@@ -161,4 +163,38 @@ a {
 
 #section-3 {
     background-color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 450px;
+
+}
+
+.quote-text,.quote-author {
+    color: #000;
+    margin: 0;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+
+
